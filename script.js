@@ -90,6 +90,9 @@ const func = function (json) {
         case 'Haze':
             img.src = 'assets/mist.png';
             break;
+        case 'Smoke':
+            img.src = 'assets/smoke.png';
+            break;
         default:
             img.src = 'assets/cloud.png';
     }
