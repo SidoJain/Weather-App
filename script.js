@@ -19,6 +19,13 @@ search.addEventListener('click', () => {
                     func404();
                 }, 1500);
             }
+            else if (container.style.height == '400px') {
+                container.classList.add('exit404');
+                setTimeout(() => {
+                    container.classList.remove('exit404');
+                    func404();
+                }, 1500);
+            }
             else 
                 func404();
             return;
